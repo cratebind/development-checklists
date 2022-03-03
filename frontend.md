@@ -43,6 +43,7 @@
 - [ ] Have you run this code on both iOS & Android devices and on differing sizes devices?
 
 # Senior
+All junior items, as well as:
 - [ ] Are exceptions gracefully handled?
 - [ ] Is the caching strategy properly implemented?
 - [ ] Is image optimization handled properly?
