@@ -15,6 +15,8 @@
 ### Is each AC fully implemented?
 - [ ] Have you run this code in different browsers (plus mobile browsers) & view sizes?
 - [ ] Does it match the design in all viewports / device
+- [ ] Is this commit complete or will we need to come back and finish this feature *OR* Are there any dependencies that are needed to make this feature work as intended? Ie: front end, back end, third party, etc.
+    - [ ] if so, is there sufficient comments/notes about what is needed?
 
 ### Is authentication handled properly?
 - [ ] If this code accesses a restricted resource, is it protected from unauthorized users?
@@ -26,14 +28,16 @@
   - [ ] Unauthorized access attempted (Should redirect back or to a login screen if login is required)
   - [ ] Users taking unexpected actions
   - [ ] Results are incomplete [insufficient or empty data]
+
+### Data Fetching
 - [ ] Are loading states handled?
-- [ ] Is this commit complete or will we need to come back and finish this feature *OR* Are there any dependencies that are needed to make this feature work as intended? Ie: front end, back end, third party, etc.
-    - [ ] if so, is there sufficient comments/notes about what is needed?
-- [ ] End User Impact
-  - [ ] Do all interactive elements follow accessibility best practices?
-    - [ ] [W3C / WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) guidelines
-    - [ ] [Maybe add Accessibe auditing here if we end up using it]
-    - [ ] Make sure to use accessibility-focused libraries ([Minerva UI](https://minerva-ui.js.org/), [Reach UI](https://reach.tech/), [Headless UI](https://headlessui.dev/))
+- [ ] Are "empty states" or error states handled when fetching data?
+
+### End User Impact
+- [ ] Do all interactive elements follow accessibility best practices?
+  - [ ] [W3C / WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) guidelines
+  - [ ] [Maybe add Accessibe auditing here if we end up using it]
+  - [ ] Make sure to use accessibility-focused libraries ([Minerva UI](https://minerva-ui.js.org/), [Reach UI](https://reach.tech/), [Headless UI](https://headlessui.dev/))
 
 # Mobile
 - [ ] Have you run this code on both iOS & Android devices and on differing sizes devices?
